@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+header, nav, footer {
+  display: block;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ol, ul {
+  margin-top: 0;
+}
+
+html, body {
+  font-size: 16px;
+  background-color: #f9f9f9;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.5;
+  font-family: roboto-f, sans-serif;
+  overflow-x: hidden;
+  color: #333;
+  height: 100%;
+  width: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bottom_line {
+  border-bottom: 2px solid #26d381;
+  color: black;
+}
+
+.menu__topLine {
+  background-color: #19212a;
+  height: 100%;
+  width: 100%;
+}
+.menu__topLine .row {
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+}
+.menu__topLine .justify-content-end {
+  justify-content: flex-end;
+  -webkit-box-pack: end;
+}
+.menu__topLine .menu__link {
+  display: flex;
+  margin-bottom: 6px;
+}
+.menu__topLine .page {
+  font-size: 12px;
+  padding-left: 0;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.menu__topLine li {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.menu__topLine a {
+  color: #aaa;
+}
+.menu__topLine .menu__socLink {
+  padding-top: 7px;
+  padding-left: 0;
+  margin-right: 30px;
+}
+
+.menu__bottom {
+  background-color: #212a34;
+  margin-bottom: 30px;
+  width: 100%;
+  color: #fff;
+}
+.menu__bottom .justify-content {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.menu__bottom .d-flex {
+  display: flex;
+}
+.menu__bottom .logo {
+  padding-top: 9px;
+}
+.menu__bottom img {
+  vertical-align: middle;
+  border-style: none;
+}
+.menu__bottom .h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 4px;
+  height: 30px;
+}
+.menu__bottom .description {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  color: #aaa;
+}
+.menu__bottom p {
+  margin-top: 0;
+}
+
+.menu__main {
+  display: flex;
+  font-size: 16px;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.menu__main ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+.menu__main .active {
+  border-bottom: 3px solid #26d381;
+  color: #26d381;
+}
+.menu__main .active_figma {
+  color: #26d381;
+}
+.menu__main a {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 16px;
+  width: 125px;
+  height: 60px;
+  color: #fff;
+}
+
+.main_content {
+  width: 60%;
+}
+.main_content .headers__pictures {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.main_bar {
+  width: 40%;
+  margin-top: 50px;
+  padding-left: 180px;
+}
+
+.main-footer {
+  background-color: #212a34;
+}
+.main-footer .container-footer {
+  display: block;
+}
+.main-footer .container-footer .footer_link {
+  display: flex;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.main-footer .container-footer .footer_link li {
+  margin-right: 40px;
+  margin-bottom: 25px;
+}
+.main-footer .container-footer .footer_link li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.main-footer .container-footer .footer__socLink {
+  display: flex;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.main-footer .container-footer .footer__socLink li {
+  display: list-item;
+  margin-right: 40px;
+  margin-bottom: 25px;
+}
+.main-footer .container-footer .footer__socLink li a {
+  font-size: 48px;
+  color: #aaa;
+}
+.main-footer .container-footer hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  border-width: 2px;
+}
+
+/*# sourceMappingURL=main.css.map */
